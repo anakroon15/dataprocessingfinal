@@ -23,7 +23,7 @@ def load_data(filepath):
     return data
 
 def make_plot(source, initial_year):
-     """
+    """
     Create a Bokeh plot with interactive tools.
 
     Args:
@@ -51,7 +51,7 @@ def make_plot(source, initial_year):
     return p
 
 def setup_slider(initial_year, source, plot, data):
-     """
+    """
     Setup a slider for changing the year dynamically.
 
     Args:
